@@ -1,0 +1,114 @@
+<div class="page-body">
+  <!-- Main container -->
+  <div class="primary-cont">
+    <!-- Container for Tabs for forms-->
+    <div class="tabs-cont">
+      <!-- Logo -->
+      <div class="logo-cont">
+        <p class="logo">K BOOKS</p>
+
+        <div class="close-form">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-x-circle-fill"
+            viewBox="0 0 16 16"
+            (click)="closeModal()"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Container for tabs for form -->
+      <div class="tabs">
+        <div
+          class="login-cont"
+          [ngClass]="{ something: checkContainer == false }"
+        >
+          <a id="log" (click)="login($event)">Login</a>
+        </div>
+        <div
+          class="signup-cont"
+          [ngClass]="{ something: checkContainer == true }"
+        >
+          <a id="sign" (click)="signUp($event)">Sign Up</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body for forms -->
+    <div class="info-cont">
+      <!-- This contains the Sign Up form  -->
+      <div class="cont1" *ngIf="checkContainer == true">
+        <Form>
+          <div class="FN">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="LN">
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="email">
+            <input type="email" name="mail" id="mail" placeholder="Email" />
+          </div>
+          <div class="pass">
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              placeholder="Password"
+            />
+          </div>
+
+          <div class="line1">
+            <p class="info-line1">
+              Would you like to receive updates via Email?
+            </p>
+          </div>
+          <div class="line2">
+            <input type="checkbox" name="" id="check" />
+            <p class="info-line2">Yes, sign up for Newsletter</p>
+          </div>
+          <div class="sign-btn">
+            <button id="s-btn">Sign Up</button>
+          </div>
+        </Form>
+      </div>
+
+      <!-- This contains Login Form -->
+      <div class="cont2" *ngIf="checkContainer == false">
+        <Form>
+          <div class="email2">
+            <input type="email" name="mail" id="mail2" placeholder="Email" />
+          </div>
+          <div class="pass2">
+            <input
+              type="password"
+              name="pass"
+              id="pass2"
+              placeholder="Password"
+            />
+          </div>
+
+          <div class="log-btn">
+            <button id="l-btn">Login</button>
+          </div>
+        </Form>
+      </div>
+    </div>
+  </div>
+</div>

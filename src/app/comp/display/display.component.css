@@ -1,0 +1,98 @@
+.main-cont {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  width: 90%;
+  margin: auto;
+}
+
+/* container for contents styling */
+.com {
+  margin-top: 220px;
+  width: 100%;
+  height: 95%;
+  border: 2px solid #3a363638;
+  padding: 7%;
+  transition: 0.5s;
+  position: relative;
+}
+
+.com:hover {
+  transition: 0.4s border ease-out;
+  border: 2px solid #f28403;
+  box-shadow: 3px 4px 6px #3a363671;
+}
+
+/* Image container styling */
+.img-cont {
+  width: 153px;
+  height: 226px;
+}
+
+/* Image stying */
+.cov {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for all text info */
+.comic-info {
+  margin-top: 15px;
+  width: 100%;
+  z-index: 6;
+  position: relative;
+  /* code added */
+  transition: 0.3s;
+  background-color: white;
+  padding-top: 11px;
+}
+
+/* Title for comics styling */
+.title {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/* Artist for comic styling  */
+.artist {
+  margin: 3px 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.741);
+}
+
+/* Genre styling for comic */
+.genre {
+  font-size: 17px;
+}
+
+/* Price for comic styling */
+.price {
+  margin: 3px 0;
+  font-weight: bold;
+}
+
+.random {
+  width: 100%;
+  height: 100px;
+  margin: 90px 0;
+}
+
+/* code added for hover */
+.com:hover > .comic-info {
+  transform: translateY(-50px);
+}
+
+.card-icons-popUp {
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #f28403;
+}
+
+.bi-cart3,
+.bi-heart-fill:hover {
+  cursor: pointer;
+}

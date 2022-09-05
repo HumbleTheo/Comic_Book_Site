@@ -1,0 +1,159 @@
+/* Header background styling */
+.main-head {
+  width: 100%;
+  height: 96%;
+  padding-bottom: 55px;
+  background: linear-gradient(180deg, #fcbb14 0%, rgba(202, 97, 0, 0.81) 100%);
+}
+
+/* Logo styling */
+.KB {
+  width: 164px;
+  height: 67px;
+  left: 28px;
+  top: 41px;
+  margin: 10px 0 0 15px;
+  padding: 0;
+  font-family: "Rationale", sans-serif;
+  font-size: 44px;
+  line-height: 67px;
+  color: whitesmoke;
+}
+
+/* Search bar styling */
+#search {
+  width: 280px;
+  outline: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0 4px;
+}
+
+#search::placeholder {
+  color: rgba(18, 17, 17, 0.681);
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* Login link styling */
+.login {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+}
+
+.login:hover {
+  cursor: pointer;
+}
+
+/* Search icon styling */
+.bi-search {
+  color: black;
+  margin-top: 5px;
+}
+
+/* Search box with icon styling */
+.search-group {
+  display: flex;
+}
+
+/* Person icon styling */
+.bi-person-circle {
+  color: whitesmoke;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+/* Login with icon styling */
+.login-group {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Account link styling */
+.acct-access {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+}
+
+#acct {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.acct-access:hover {
+  cursor: pointer;
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.user {
+  display: flex;
+  gap: 20px;
+  margin-right: 260px;
+}
+
+/* Header typography stylings */
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 160px 0 0 15px;
+  height: 50vh;
+  font-family: "Roboto", sans-serif;
+}
+
+/* First Text Line on Header */
+.h-info1 {
+  margin: 0 0 6px 0;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Second Text Line on Header*/
+.h-info2 {
+  margin: 0 0 33px 0;
+  font-weight: bold;
+  font-size: 56px;
+  color: whitesmoke;
+}
+
+/* Button on header styling */
+.head-btn {
+  border: none;
+  padding: 15px 48px;
+  font-size: 19px;
+  color: whitesmoke;
+  background: #3a3636;
+}
+
+.head-btn:hover {
+  cursor: pointer;
+}
+
+/* Styling for images */
+
+.bund {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for main image container */
+.head-img {
+  height: 100%;
+  margin-right: 30px;
+}

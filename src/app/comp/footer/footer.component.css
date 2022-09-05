@@ -1,0 +1,160 @@
+/* Main footer styling */
+section {
+  width: 100%;
+  height: 70vh;
+  background: #252323;
+  font-family: "Roboto", sans-serif;
+  color: whitesmoke;
+}
+
+/* First Footer Title container styling */
+.first-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+/* First Footer Title styling */
+.news-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffb800;
+}
+
+/* Newsletter field and button container styling */
+.news-cont {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+/* Newsletter field container styling */
+.news-input {
+  margin-right: 15px;
+}
+
+/* Newsletter field styling */
+#news {
+  background: transparent;
+  border: 2px solid #ffb800;
+  outline: none;
+  color: #ffb800;
+  font-size: 13px;
+  padding: 13px 4px;
+  width: 550px;
+}
+
+#news::placeholder {
+  color: #ffb700b9;
+}
+
+/* Subscribe button styling */
+.news-btn {
+  background: #ffb800;
+  border: 1px solid #ffb800;
+  padding: 10px 24px;
+  font-size: 20px;
+}
+
+/* Footer Main section styling */
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+
+/* Footer Main with sub headers styling */
+.logo,
+.policy,
+.categ {
+  margin-bottom: 40px;
+  color: #ffb800;
+}
+
+/* Policy and Category heading styling */
+.policy,
+.categ {
+  font-size: 22px;
+}
+
+/* Logo heading styling */
+.logo {
+  font-family: "Rationale", sans-serif;
+  font-size: 28px;
+}
+
+/* Social icons styling */
+.socials {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+/* instagram icon styling */
+.insta:hover {
+  color: #ffb800;
+  transition: 0.4 ease-out;
+  cursor: pointer;
+}
+
+/* twitter icon styling */
+.twitter:hover {
+  color: #ffb800;
+  transition: 0.4 ease-out;
+  cursor: pointer;
+}
+
+/* facebook icon styling */
+.facebook:hover {
+  color: #ffb800;
+  transition: 0.4 ease-out;
+  cursor: pointer;
+}
+
+/* youtube icon styling */
+.youtube:hover {
+  color: #ffb800;
+  transition: 0.4 ease-out;
+  cursor: pointer;
+}
+
+/* Policy info styling */
+.policy-cont > p {
+  margin-bottom: 10px;
+}
+
+.policy-cont > p:hover {
+  color: #ffb800;
+  transition: 0.4 ease-out;
+  cursor: pointer;
+}
+
+/* Category info styling */
+.categ-cont > p {
+  margin-bottom: 10px;
+}
+
+.categ-cont > p:hover {
+  color: #ffb800;
+  transition: 0.4 ease-out;
+  cursor: pointer;
+}
+
+/* logo info 1 styling */
+.logo-cont1 {
+  margin-bottom: 12px;
+}
+
+.logo-cont1 > p {
+  margin-bottom: 4px;
+}
+
+/* Logo info 2 styling */
+.logo-cont2 {
+  margin-bottom: 50px;
+}
+
+.logo-cont2 > p {
+  margin-bottom: 4px;
+}

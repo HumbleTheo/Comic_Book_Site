@@ -1,0 +1,157 @@
+/* Main Area of section styling */
+.main-area {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Base of the form styling */
+.form-base {
+  width: 44%;
+  height: 98%;
+  margin: auto;
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container styling */
+.form-container {
+  width: 92%;
+  height: 93%;
+  background: #ffffff;
+  box-shadow: 0px 6px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Header for form styling */
+
+.form-head {
+  background: #fbc12d;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title styling */
+.title-cont > p {
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "Rationale", sans-serif;
+}
+
+/* -------- Form Body Styling ------- */
+.form-body {
+  padding: 2.5%;
+}
+
+/* Main info for form styling */
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  height: 330px;
+  width: 92%;
+}
+
+/* --------Image upload area styling -------- */
+.img-upload-sect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 96%;
+}
+
+/* Image container styling */
+.img-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  background: rgba(217, 217, 217, 0.58);
+}
+
+/* Image icon styling */
+.bi-file-image {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+/* Upload button container styling */
+.up-btn {
+  margin-top: 10px;
+}
+
+/* Upload button styling */
+#upload {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  background: linear-gradient(180deg, #fcca4b 50%, #fcbb14 145%);
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#upload:hover {
+  cursor: pointer;
+}
+
+/* Container of text for upload button styling */
+.up-text {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* -------- Information for Inputting on form styling --------- */
+
+/* Main Area for Input section styling */
+.info-sect {
+  width: 100%;
+  margin-left: 5%;
+}
+
+/* All input fields stlying */
+.info-sect > div > input {
+  margin-bottom: 30%;
+}
+
+/* Input fields styling */
+#creator,
+#title,
+#genre,
+#num {
+  width: 97%;
+  border-bottom: 2px solid #000000;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  padding: 3px 0;
+}
+
+#creator {
+  margin-top: 20%;
+}
+
+/* Container for post button styling */
+.post-btn-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+/* Post button styling */
+
+#post {
+  width: 60%;
+  padding: 15px 0;
+  background: #3a3636;
+  color: #fcca4b;
+  font-size: 28px;
+}
+#post:hover {
+  cursor: pointer;
+}

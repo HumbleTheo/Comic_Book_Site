@@ -1,0 +1,72 @@
+/* Overall segment styling */
+.big-box {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 50vh;
+  background: #fcca4b;
+}
+
+/* Segment info styling */
+.seg-cont {
+  width: 91%;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Text and button styling  */
+.info-seg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 105px;
+  width: 50%;
+}
+
+/* Segment image container */
+.img-seg {
+  height: 42vh;
+  margin-top: 40px;
+}
+
+/* image styling */
+.seg-com {
+  height: 100%;
+  width: 100%;
+}
+
+/* Text stylings */
+.seg-text1 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+
+.seg-text2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.seg-text3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+/* Segment button styling */
+
+.seg-btn {
+  background: #3a3636;
+  border: none;
+  color: whitesmoke;
+  padding: 15px 18px;
+  width: 30%;
+  font-size: 19px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+/* -------------Extra space--------- */
+.extra {
+  width: 100%;
+  margin: 100px 0;
+}

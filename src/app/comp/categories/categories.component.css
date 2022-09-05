@@ -1,0 +1,29 @@
+/* Overall list container styling*/
+.categ {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background: #f3f3f3;
+  box-shadow: 0px 3px 25px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* List styling */
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+/* List items styling */
+ul li {
+  padding: 12px;
+  border-bottom: 4px solid #f3f3f3;
+}
+
+ul li:hover,
+.active li {
+  transition: 0.3s border ease-out;
+  border-bottom: 4px solid #e7ad1a;
+  cursor: pointer;
+}

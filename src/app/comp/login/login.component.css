@@ -1,0 +1,204 @@
+/* Page styling */
+.page-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container for the entire content styling */
+.primary-cont {
+  width: 40%;
+  height: 580px;
+  background: #ececec;
+}
+
+/* Tabs styling */
+.tabs {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Logo container styling */
+.logo-cont {
+  padding-top: 8px;
+  font-family: "Rationale", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 23px;
+  margin-left: 36%;
+}
+
+/* Close Form X-icon container styling */
+.close-form {
+  display: flex;
+  margin-left: 50%;
+}
+
+/* X-circle icon styling */
+.bi-x-circle-fill:hover {
+  cursor: pointer;
+}
+
+/* header for form with tabs styling */
+.tabs-cont {
+  background: #fbc12d;
+  width: 100%;
+}
+
+/* Containers for individual tabs */
+.login-cont,
+.signup-cont {
+  padding: 9px 13%;
+  /* border-bottom: #000000 3px solid; */
+}
+
+.something {
+  border-bottom: #000000 3px solid;
+}
+
+/*  Link stylings */
+#sign,
+#log {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+#sign,
+#log:hover {
+  cursor: pointer;
+}
+
+/* Contains overall styling for the two forms */
+.info-cont {
+  margin: 13px;
+  height: 410px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0px 6px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Contents for Sign Up form */
+.cont1 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+}
+
+/* Input fields styling */
+#fname,
+#lname,
+#mail,
+#pass {
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #000000;
+  width: 98%;
+  margin-bottom: 35px;
+  font-size: 17px;
+  color: #000000;
+  background: transparent;
+}
+
+#fname,
+#lname,
+#mail,
+#pass::placeholder {
+  font-size: 17px;
+}
+
+#fname {
+  margin-top: 50px;
+}
+
+/* First line of text for form styling */
+.line1 {
+  margin-top: -13px;
+  font-size: 13px;
+  color: #000000a8;
+}
+
+/* Second line of text for form styling */
+.line2 {
+  display: flex;
+  gap: 1%;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* Container for button styling */
+.sign-btn {
+  display: flex;
+  margin-right: 28px;
+  justify-content: flex-end;
+}
+
+/* Sign Up button stlyling */
+#s-btn {
+  background: #000000;
+  color: #fcca4b;
+  padding: 8px 24px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+/* Styling for Login Form */
+
+/* Styling for Login form container contents */
+.cont2 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+}
+
+/* Styling for Input fields */
+#mail2,
+#pass2 {
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #000000;
+  width: 98%;
+  margin-bottom: 65px;
+  font-size: 17px;
+  color: #000000;
+}
+
+#mail2,
+#pass2::placeholder {
+  font-size: 17px;
+}
+
+#mail2 {
+  margin-top: 50px;
+}
+
+/* Login button container styling */
+.log-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 88px;
+  margin-right: 28px;
+}
+
+/* Login button styling */
+#l-btn {
+  background: #000000;
+  color: #fcca4b;
+  padding: 8px 24px;
+  font-size: 19px;
+  cursor: pointer;
+}
