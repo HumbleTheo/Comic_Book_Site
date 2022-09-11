@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Router, RouterModule, Routes } from '@angular/router';
 import { AccountComponent } from './comp/account/account.component';
 import { BookFormComponent } from './comp/book-form/book-form.component';
 import { DisplayComponent } from './comp/display/display.component';
@@ -56,10 +56,20 @@ const routes: Routes = [
     path: 'book_form',
     component: BookFormComponent,
   },
+  {
+    path: 'book_form/:id',
+    component: BookFormComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+  constructor(private router: Router) {
+    this.router.events.subscribe(() => {
+      window.scrollTo(0, 700);
+    });
+  }
+}

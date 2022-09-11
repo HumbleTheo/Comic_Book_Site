@@ -22,4 +22,8 @@ export class LoginComponent implements OnInit {
   closeModal() {
     this.modal.closeModal();
   }
+
+  handleLoginSumbit() {}
+
+  handleSignupSumbit() {}
 }

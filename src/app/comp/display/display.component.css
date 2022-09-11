@@ -15,7 +15,7 @@
   height: 95%;
   border: 2px solid #3a363638;
   padding: 7%;
-  transition: 0.5s;
+  transition: all 0.5s ease;
   position: relative;
 }
 
@@ -82,6 +82,7 @@
 /* code added for hover */
 .com:hover > .comic-info {
   transform: translateY(-50px);
+  transition: 0.2 ease-in;
 }
 
 .card-icons-popUp {

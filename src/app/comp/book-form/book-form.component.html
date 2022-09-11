@@ -38,7 +38,7 @@
               </span>
             </div>
             <div class="up-btn">
-              <button id="upload">
+              <button type="button" id="upload">
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@
 
           <!-- Information input section -->
           <div class="info-sect">
-            <div class="name">
+            <div class="form-control">
               <input
                 type="text"
                 name="artist"
@@ -78,7 +78,7 @@
                 [(ngModel)]="comic.artist"
               />
             </div>
-            <div class="Title">
+            <div class="form-control">
               <input
                 type="text"
                 name="title"
@@ -88,17 +88,24 @@
                 [(ngModel)]="comic.title"
               />
             </div>
-            <div class="categ">
-              <input
-                type="text"
+            <div class="form-control">
+              <select
                 name="category"
-                id="genre"
-                placeholder="Please Enter Comic Genre"
+                id="category"
                 required
                 [(ngModel)]="comic.category"
-              />
+              >
+                <option value="" disabled selected>
+                  Please Enter Comic Genre
+                </option>
+                <option value="Action">Action</option>
+                <option value="Superhero">Superhero</option>
+                <option value="Slice-of-life">Slice-of-Life</option>
+                <option value="Humor">Humor</option>
+                <option value="Horror">Horror</option>
+              </select>
             </div>
-            <div class="price">
+            <div class="form-control">
               <input
                 type="number"
                 name="price"

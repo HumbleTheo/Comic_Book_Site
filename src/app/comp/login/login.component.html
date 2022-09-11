@@ -45,7 +45,7 @@
     <div class="info-cont">
       <!-- This contains the Sign Up form  -->
       <div class="cont1" *ngIf="checkContainer == true">
-        <Form>
+        <Form (submit)="handleSignupSumbit()">
           <div class="FN">
             <input
               type="text"
@@ -91,7 +91,7 @@
 
       <!-- This contains Login Form -->
       <div class="cont2" *ngIf="checkContainer == false">
-        <Form>
+        <Form (submit)="handleLoginSumbit()">
           <div class="email2">
             <input type="email" name="mail" id="mail2" placeholder="Email" />
           </div>

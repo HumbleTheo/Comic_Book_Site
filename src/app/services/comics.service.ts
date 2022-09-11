@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -11,7 +12,7 @@ export class ComicsService {
   getAllComics() {
     return this.http.get(this.apiUrl);
   }
-  getComicById(id: string) {
+  getComicById(id: string): Observable<any> {
     return this.http.get(this.apiUrl + id);
   }
   createComic(data: any) {

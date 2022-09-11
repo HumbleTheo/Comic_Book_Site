@@ -54,7 +54,9 @@ exports.getItemById = async (req, res) => {
 // Update Comics by id
 exports.updateItemById = async (req, res) => {
 	try {
-		const comic = await Comics.findByIdAndUpdate(req.params.id, req.body)
+		const comic = await Comics.findByIdAndUpdate(req.params.id, req.body, {
+			new: true,
+		})
 		JSONResponse.success(res, 'Success.', comic, 200)
 	} catch (error) {
 		JSONResponse.error(res, 'Fail to load comic', error, 500)
