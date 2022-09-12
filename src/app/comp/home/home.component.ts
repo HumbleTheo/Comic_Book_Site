@@ -9,5 +9,7 @@ import { ModalService } from 'src/app/services/modal.service';
 export class HomeComponent implements OnInit {
   constructor(public modal: ModalService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

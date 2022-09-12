@@ -15,6 +15,8 @@ export class BookFormComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
+
     this.id = this.route.snapshot.params['id'];
 
     if (this.id) {

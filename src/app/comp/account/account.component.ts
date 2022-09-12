@@ -10,6 +10,8 @@ export class AccountComponent implements OnInit {
   constructor(private comicService: ComicsService) {}
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
+
     this.comicService.getAllComics().subscribe((res: any) => {
       if (res.message === 'Success.') this.comics = res.data;
     });
